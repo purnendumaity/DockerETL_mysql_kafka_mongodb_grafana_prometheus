@@ -1,0 +1,47 @@
+[2025-07-25T21:07:20.798+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-25T21:07:20.962+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T21:07:04.673260+00:00 [queued]>
+[2025-07-25T21:07:20.985+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T21:07:04.673260+00:00 [queued]>
+[2025-07-25T21:07:20.987+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-07-25T21:07:21.048+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_order_and_delivery_data> on 2025-07-25 21:07:04.673260+00:00
+[2025-07-25T21:07:21.069+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=220) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-25T21:07:21.072+0000] {standard_task_runner.py:63} INFO - Started process 221 to run task
+[2025-07-25T21:07:21.069+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample_ETL', 'load_order_and_delivery_data', 'manual__2025-07-25T21:07:04.673260+00:00', '--job-id', '53', '--raw', '--subdir', 'DAGS_FOLDER/sample_ETL.py', '--cfg-path', '/tmp/tmpzl_zfwwo']
+[2025-07-25T21:07:21.076+0000] {standard_task_runner.py:91} INFO - Job 53: Subtask load_order_and_delivery_data
+[2025-07-25T21:07:21.371+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-25T21:07:21.908+0000] {task_command.py:426} INFO - Running <TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T21:07:04.673260+00:00 [running]> on host 9f2231592208
+[2025-07-25T21:07:22.589+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample_ETL' AIRFLOW_CTX_TASK_ID='load_order_and_delivery_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T21:07:04.673260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T21:07:04.673260+00:00'
+[2025-07-25T21:07:22.594+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-25T21:07:22.649+0000] {logging_mixin.py:188} INFO - 🚀 Starting load_order_and_delivery_data
+[2025-07-25T21:07:22.674+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-25T21:07:23.234+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-07-25T21:07:23.237+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-25T21:07:23.480+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-25T21:07:23.485+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-25T21:07:23.487+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-07-25T21:07:23.895+0000] {logging_mixin.py:188} INFO - ✅ Produced 124 records to topic 'orders_topic'
+[2025-07-25T21:07:23.897+0000] {logging_mixin.py:188} INFO - ✅ orders producer completed
+[2025-07-25T21:07:24.035+0000] {logging_mixin.py:188} INFO - ✅ Produced 124 records to topic 'delivery_topic'
+[2025-07-25T21:07:24.037+0000] {logging_mixin.py:188} INFO - ✅ delivery producer completed
+[2025-07-25T21:07:29.033+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-25T21:07:29.060+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-07-25T21:07:29.061+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-25T21:07:29.063+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('orders_topic',)
+[2025-07-25T21:07:29.138+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-25T21:07:29.139+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-25T21:07:29.140+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-07-25T21:07:29.264+0000] {cluster.py:401} INFO - Coordinator for group/etl_group is ('coordinator-1', 'kafka', 9092, None)
+[2025-07-25T21:07:29.265+0000] {base.py:788} INFO - Discovered coordinator coordinator-1 for group etl_group
+[2025-07-25T21:07:29.266+0000] {base.py:848} INFO - Starting new heartbeat thread
+[2025-07-25T21:07:29.268+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group etl_group
+[2025-07-25T21:07:29.269+0000] {base.py:419} INFO - Failed to join group etl_group: NodeNotReadyError: coordinator-1
+[2025-07-25T21:07:29.271+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-25T21:07:29.272+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-25T21:07:29.373+0000] {base.py:532} INFO - (Re-)joining group etl_group
+[2025-07-25T21:07:29.494+0000] {base.py:637} INFO - Received member id kafka-python-2.2.15-47362e6a-ecd6-4722-be73-34bcf371b2c6 for group etl_group; will retry join-group
+[2025-07-25T21:07:29.495+0000] {base.py:419} INFO - Failed to join group etl_group: [Error 79] MemberIdRequiredError
+[2025-07-25T21:07:29.496+0000] {base.py:532} INFO - (Re-)joining group etl_group
+[2025-07-25T21:07:32.647+0000] {base.py:594} INFO - Successfully joined group etl_group <Generation 3 (member_id: kafka-python-2.2.15-47362e6a-ecd6-4722-be73-34bcf371b2c6, protocol: range)>
+[2025-07-25T21:07:32.647+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-07-25T21:07:32.720+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('orders_topic', 0)]
+[2025-07-25T21:07:32.721+0000] {consumer.py:249} INFO - Setting newly assigned partitions (('orders_topic', 0),) for group etl_group
+[2025-07-25T21:07:33.191+0000] {logging_mixin.py:188} INFO - 📝 Inserted 100 into orders...

@@ -1,0 +1,102 @@
+product_id,warehouse_id,product_name,product_category,stock_level
+P130,WH5,SparkleFresh Liquid Floor Cleaner,Cleaning and Household,77
+P137,WH1,Disposable Garbage Bag,Cleaning and Household,107
+P135,WH3,Duster,Cleaning and Household,30
+P139,WH1,FreshAir Lavender Room Spray,Cleaning and Household,51
+P187,WH5,PowerWash Dish Gel – Lemon Zest,Cleaning and Household,26
+P148,WH5,FarmPure Organic Tomatoes,Fruits and Vegetables,50
+P122,WH2,GreenHarvest Palak Leaves,Fruits and Vegetables,192
+P179,WH3,FreshNest Alphonso Mango (Premium),Fruits and Vegetables,172
+P127,WH4,VeggieBasket Baby Corn – Peeled,Fruits and Vegetables,139
+P174,WH4,DesiRoots Red Onions (Loose),Fruits and Vegetables,55
+P185,WH2,GoldenGrain Basmati Rice – 5kg,"Foodgrains, Oil & Masala",80
+P152,WH2,Forune Rice Bran Oil- 5Ltr,"Foodgrains, Oil & Masala",99
+P183,WH4,SpiceRoots Turmeric Powder – 100g,"Foodgrains, Oil & Masala",141
+P150,WH3,"NutriGram Moong Dal – Split, Washed","Foodgrains, Oil & Masala",186
+P107,WH3,Ashirbaad Atta -5kg,"Foodgrains, Oil & Masala",72
+P172,WH2,Redbull Energy drink,Beverages,171
+P156,WH5,CoolFizz Nimbu Soda – 500ml,Beverages,20
+P160,WH2,NatureSip Green Tea – Tulsi Lemon,Beverages,171
+P170,WH3,Mapro 100% Orange Juice,Beverages,121
+P155,WH1,Brue Instant Coffee,Beverages,110
+P154,WH5,CrunchBites Masala Makhana,Snacks and Branded Foods,73
+P118,WH3,DesiDelight Roasted Chana Snack,Snacks and Branded Foods,92
+P105,WH1,Hadiram Bhujia,Snacks and Branded Foods,179
+P171,WH5,Britannia Rusk,Snacks and Branded Foods,76
+P125,WH4,HerbalCure Neem Tulsi Bath Soap,Beauty and Hygiene,126
+P167,WH3,ShineCoat Hair Serum – Keratin Boost,Beauty and Hygiene,90
+P146,WH3,Fogg perfume,Beauty and Hygiene,200
+P140,WH3,Lux Soap,Beauty and Hygiene,122
+P175,WH3,Loreal Conditioner,Beauty and Hygiene,180
+P101,WH4,GlowEssence Aloe Vera Face Wash,Beauty and Hygiene,57
+P181,WH1,SparkleFresh Liquid Floor Cleaner,Cleaning and Household,182
+P110,WH1,Disposable Garbage Bag,Cleaning and Household,192
+P197,WH4,Duster,Cleaning and Household,37
+P158,WH2,FreshAir Lavender Room Spray,Cleaning and Household,83
+P117,WH1,PowerWash Dish Gel – Lemon Zest,Cleaning and Household,44
+P182,WH1,FarmPure Organic Tomatoes,Fruits and Vegetables,73
+P199,WH1,GreenHarvest Palak Leaves,Fruits and Vegetables,163
+P124,WH5,FreshNest Alphonso Mango (Premium),Fruits and Vegetables,139
+P144,WH5,VeggieBasket Baby Corn – Peeled,Fruits and Vegetables,78
+P168,WH3,DesiRoots Red Onions (Loose),Fruits and Vegetables,86
+P138,WH4,GoldenGrain Basmati Rice – 5kg,"Foodgrains, Oil & Masala",130
+P104,WH5,Forune Rice Bran Oil- 5Ltr,"Foodgrains, Oil & Masala",33
+P189,WH3,SpiceRoots Turmeric Powder – 100g,"Foodgrains, Oil & Masala",116
+P177,WH3,"NutriGram Moong Dal – Split, Washed","Foodgrains, Oil & Masala",121
+P120,WH3,Ashirbaad Atta -5kg,"Foodgrains, Oil & Masala",119
+P162,WH1,Redbull Energy drink,Beverages,96
+P112,WH4,CoolFizz Nimbu Soda – 500ml,Beverages,100
+P132,WH4,NatureSip Green Tea – Tulsi Lemon,Beverages,131
+P163,WH3,Mapro 100% Orange Juice,Beverages,110
+P128,WH2,Brue Instant Coffee,Beverages,187
+P166,WH4,CrunchBites Masala Makhana,Snacks and Branded Foods,100
+P115,WH4,DesiDelight Roasted Chana Snack,Snacks and Branded Foods,50
+P180,WH2,Hadiram Bhujia,Snacks and Branded Foods,58
+P113,WH4,Britannia Rusk,Snacks and Branded Foods,118
+P149,WH5,HerbalCure Neem Tulsi Bath Soap,Beauty and Hygiene,180
+P196,WH4,ShineCoat Hair Serum – Keratin Boost,Beauty and Hygiene,177
+P192,WH1,Fogg perfume,Beauty and Hygiene,98
+P102,WH4,Lux Soap,Beauty and Hygiene,172
+P184,WH4,Loreal Conditioner,Beauty and Hygiene,146
+P193,WH2,GlowEssence Aloe Vera Face Wash,Beauty and Hygiene,115
+P131,WH5,SparkleFresh Liquid Floor Cleaner,Cleaning and Household,80
+P111,WH2,Disposable Garbage Bag,Cleaning and Household,159
+P165,WH5,Duster,Cleaning and Household,92
+P126,WH1,FreshAir Lavender Room Spray,Cleaning and Household,181
+P114,WH2,PowerWash Dish Gel – Lemon Zest,Cleaning and Household,91
+P134,WH3,FarmPure Organic Tomatoes,Fruits and Vegetables,56
+P198,WH2,GreenHarvest Palak Leaves,Fruits and Vegetables,38
+P153,WH3,FreshNest Alphonso Mango (Premium),Fruits and Vegetables,124
+P176,WH5,VeggieBasket Baby Corn – Peeled,Fruits and Vegetables,191
+P121,WH5,DesiRoots Red Onions (Loose),Fruits and Vegetables,39
+P116,WH4,GoldenGrain Basmati Rice – 5kg,"Foodgrains, Oil & Masala",54
+P123,WH1,Forune Rice Bran Oil- 5Ltr,"Foodgrains, Oil & Masala",52
+P200,WH1,SpiceRoots Turmeric Powder – 100g,"Foodgrains, Oil & Masala",44
+P157,WH1,"NutriGram Moong Dal – Split, Washed","Foodgrains, Oil & Masala",199
+P136,WH2,Ashirbaad Atta -5kg,"Foodgrains, Oil & Masala",61
+P103,WH4,Redbull Energy drink,Beverages,200
+P161,WH3,CoolFizz Nimbu Soda – 500ml,Beverages,26
+P142,WH1,NatureSip Green Tea – Tulsi Lemon,Beverages,191
+P188,WH1,Mapro 100% Orange Juice,Beverages,152
+P108,WH1,Brue Instant Coffee,Beverages,45
+P133,WH4,CrunchBites Masala Makhana,Snacks and Branded Foods,140
+P195,WH3,DesiDelight Roasted Chana Snack,Snacks and Branded Foods,91
+P119,WH1,Hadiram Bhujia,Snacks and Branded Foods,93
+P106,WH3,Britannia Rusk,Snacks and Branded Foods,101
+P169,WH2,HerbalCure Neem Tulsi Bath Soap,Beauty and Hygiene,124
+P164,WH5,ShineCoat Hair Serum – Keratin Boost,Beauty and Hygiene,46
+P194,WH2,Fogg perfume,Beauty and Hygiene,86
+P145,WH3,Lux Soap,Beauty and Hygiene,140
+P159,WH1,Loreal Conditioner,Beauty and Hygiene,65
+P141,WH2,GlowEssence Aloe Vera Face Wash,Beauty and Hygiene,37
+P191,WH4,SparkleFresh Liquid Floor Cleaner,Cleaning and Household,80
+P190,WH4,Disposable Garbage Bag,Cleaning and Household,145
+P147,WH4,Duster,Cleaning and Household,76
+P109,WH5,FreshAir Lavender Room Spray,Cleaning and Household,167
+P100,WH4,PowerWash Dish Gel – Lemon Zest,Cleaning and Household,183
+P143,WH1,FarmPure Organic Tomatoes,Fruits and Vegetables,58
+P173,WH1,GreenHarvest Palak Leaves,Fruits and Vegetables,194
+P151,WH4,FreshNest Alphonso Mango (Premium),Fruits and Vegetables,197
+P129,WH4,VeggieBasket Baby Corn – Peeled,Fruits and Vegetables,143
+P178,WH5,DesiRoots Red Onions (Loose),Fruits and Vegetables,190
+P186,WH3,GoldenGrain Basmati Rice – 5kg,"Foodgrains, Oil & Masala",177

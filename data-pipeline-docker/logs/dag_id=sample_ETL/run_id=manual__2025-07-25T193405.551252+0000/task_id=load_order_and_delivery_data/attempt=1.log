@@ -1,0 +1,46 @@
+[2025-07-25T19:34:19.528+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-25T19:34:19.634+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T19:34:05.551252+00:00 [queued]>
+[2025-07-25T19:34:19.647+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T19:34:05.551252+00:00 [queued]>
+[2025-07-25T19:34:19.648+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-07-25T19:34:19.693+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_order_and_delivery_data> on 2025-07-25 19:34:05.551252+00:00
+[2025-07-25T19:34:19.714+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=233) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-25T19:34:19.716+0000] {standard_task_runner.py:63} INFO - Started process 239 to run task
+[2025-07-25T19:34:19.714+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample_ETL', 'load_order_and_delivery_data', 'manual__2025-07-25T19:34:05.551252+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/sample_ETL.py', '--cfg-path', '/tmp/tmpjg4b9tyy']
+[2025-07-25T19:34:19.719+0000] {standard_task_runner.py:91} INFO - Job 43: Subtask load_order_and_delivery_data
+[2025-07-25T19:34:20.359+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-25T19:34:20.570+0000] {task_command.py:426} INFO - Running <TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-25T19:34:05.551252+00:00 [running]> on host d596a5dae802
+[2025-07-25T19:34:21.191+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample_ETL' AIRFLOW_CTX_TASK_ID='load_order_and_delivery_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-25T19:34:05.551252+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-25T19:34:05.551252+00:00'
+[2025-07-25T19:34:21.193+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-25T19:34:21.209+0000] {logging_mixin.py:188} INFO - 🚀 Starting load_order_and_delivery_data
+[2025-07-25T19:34:21.218+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-07-25T19:34:22.034+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-07-25T19:34:22.035+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-07-25T19:34:22.039+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-25T19:34:22.041+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/script2.py", line 72, in load_order_and_delivery_data
+    produce_data('orders.txt', ORDERS_TOPIC)
+  File "/opt/airflow/dags/script2.py", line 19, in produce_data
+    with open(path, 'r') as f:
+         ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/kafka_input/orders.txt'
+[2025-07-25T19:34:22.220+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=sample_ETL, task_id=load_order_and_delivery_data, run_id=manual__2025-07-25T19:34:05.551252+00:00, execution_date=20250725T193405, start_date=20250725T193419, end_date=20250725T193422
+[2025-07-25T19:34:22.278+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 43 for task load_order_and_delivery_data ([Errno 2] No such file or directory: '/opt/airflow/kafka_input/orders.txt'; 239)
+[2025-07-25T19:34:22.302+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2025-07-25T19:34:22.374+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-25T19:34:22.396+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,1013 @@
+{
+"inventory": [
+	{
+		"product_id" : "P130",
+		"warehouse_id" : "WH5",
+		"product_name" : "SparkleFresh Liquid Floor Cleaner",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 77,
+		"last_order_qty" : 15,
+		"remain_inventory" : 62,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P137",
+		"warehouse_id" : "WH1",
+		"product_name" : "Disposable Garbage Bag",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 107,
+		"last_order_qty" : 2,
+		"remain_inventory" : 105,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P135",
+		"warehouse_id" : "WH3",
+		"product_name" : "Duster",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 30,
+		"last_order_qty" : 4,
+		"remain_inventory" : 26,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P139",
+		"warehouse_id" : "WH1",
+		"product_name" : "FreshAir Lavender Room Spray",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 51,
+		"last_order_qty" : 8,
+		"remain_inventory" : 43,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P187",
+		"warehouse_id" : "WH5",
+		"product_name" : "PowerWash Dish Gel – Lemon Zest",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 26,
+		"last_order_qty" : 20,
+		"remain_inventory" : 6,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P148",
+		"warehouse_id" : "WH5",
+		"product_name" : "FarmPure Organic Tomatoes",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 50,
+		"last_order_qty" : 18,
+		"remain_inventory" : 32,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P122",
+		"warehouse_id" : "WH2",
+		"product_name" : "GreenHarvest Palak Leaves",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 192,
+		"last_order_qty" : 4,
+		"remain_inventory" : 188,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P179",
+		"warehouse_id" : "WH3",
+		"product_name" : "FreshNest Alphonso Mango (Premium)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 172,
+		"last_order_qty" : 2,
+		"remain_inventory" : 170,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P127",
+		"warehouse_id" : "WH4",
+		"product_name" : "VeggieBasket Baby Corn – Peeled",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 139,
+		"last_order_qty" : 4,
+		"remain_inventory" : 135,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P174",
+		"warehouse_id" : "WH4",
+		"product_name" : "DesiRoots Red Onions (Loose)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 55,
+		"last_order_qty" : 6,
+		"remain_inventory" : 49,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P185",
+		"warehouse_id" : "WH2",
+		"product_name" : "GoldenGrain Basmati Rice – 5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 80,
+		"last_order_qty" : 9,
+		"remain_inventory" : 71,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P152",
+		"warehouse_id" : "WH2",
+		"product_name" : "Forune Rice Bran Oil- 5Ltr",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 99,
+		"last_order_qty" : 2,
+		"remain_inventory" : 97,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P183",
+		"warehouse_id" : "WH4",
+		"product_name" : "SpiceRoots Turmeric Powder – 100g",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 141,
+		"last_order_qty" : 2,
+		"remain_inventory" : 139,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P150",
+		"warehouse_id" : "WH3",
+		"product_name" : "NutriGram Moong Dal – Split, Washed",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 186,
+		"last_order_qty" : 10,
+		"remain_inventory" : 176,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P107",
+		"warehouse_id" : "WH3",
+		"product_name" : "Ashirbaad Atta -5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 72,
+		"last_order_qty" : 8,
+		"remain_inventory" : 64,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P172",
+		"warehouse_id" : "WH2",
+		"product_name" : "Redbull Energy drink",
+		"product_category" : "Beverages",
+		"stock_level" : 171,
+		"last_order_qty" : 0,
+		"remain_inventory" : 171,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P156",
+		"warehouse_id" : "WH5",
+		"product_name" : "CoolFizz Nimbu Soda – 500ml",
+		"product_category" : "Beverages",
+		"stock_level" : 20,
+		"last_order_qty" : 0,
+		"remain_inventory" : 20,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P160",
+		"warehouse_id" : "WH2",
+		"product_name" : "NatureSip Green Tea – Tulsi Lemon",
+		"product_category" : "Beverages",
+		"stock_level" : 171,
+		"last_order_qty" : 9,
+		"remain_inventory" : 162,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P170",
+		"warehouse_id" : "WH3",
+		"product_name" : "Mapro 100% Orange Juice",
+		"product_category" : "Beverages",
+		"stock_level" : 121,
+		"last_order_qty" : 0,
+		"remain_inventory" : 121,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P155",
+		"warehouse_id" : "WH1",
+		"product_name" : "Brue Instant Coffee",
+		"product_category" : "Beverages",
+		"stock_level" : 110,
+		"last_order_qty" : 0,
+		"remain_inventory" : 110,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P154",
+		"warehouse_id" : "WH5",
+		"product_name" : "CrunchBites Masala Makhana",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 73,
+		"last_order_qty" : 6,
+		"remain_inventory" : 67,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P118",
+		"warehouse_id" : "WH3",
+		"product_name" : "DesiDelight Roasted Chana Snack",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 92,
+		"last_order_qty" : 5,
+		"remain_inventory" : 87,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P105",
+		"warehouse_id" : "WH1",
+		"product_name" : "Hadiram Bhujia",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 179,
+		"last_order_qty" : 0,
+		"remain_inventory" : 179,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P171",
+		"warehouse_id" : "WH5",
+		"product_name" : "Britannia Rusk",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 76,
+		"last_order_qty" : 0,
+		"remain_inventory" : 76,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P125",
+		"warehouse_id" : "WH4",
+		"product_name" : "HerbalCure Neem Tulsi Bath Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 126,
+		"last_order_qty" : 0,
+		"remain_inventory" : 126,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P167",
+		"warehouse_id" : "WH3",
+		"product_name" : "ShineCoat Hair Serum – Keratin Boost",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 90,
+		"last_order_qty" : 1,
+		"remain_inventory" : 89,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P146",
+		"warehouse_id" : "WH3",
+		"product_name" : "Fogg perfume",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 200,
+		"last_order_qty" : 2,
+		"remain_inventory" : 198,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P140",
+		"warehouse_id" : "WH3",
+		"product_name" : "Lux Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 122,
+		"last_order_qty" : 4,
+		"remain_inventory" : 118,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P175",
+		"warehouse_id" : "WH3",
+		"product_name" : "Loreal Conditioner",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 180,
+		"last_order_qty" : 3,
+		"remain_inventory" : 177,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P101",
+		"warehouse_id" : "WH4",
+		"product_name" : "GlowEssence Aloe Vera Face Wash",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 57,
+		"last_order_qty" : 0,
+		"remain_inventory" : 57,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P181",
+		"warehouse_id" : "WH1",
+		"product_name" : "SparkleFresh Liquid Floor Cleaner",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 182,
+		"last_order_qty" : 1,
+		"remain_inventory" : 181,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P110",
+		"warehouse_id" : "WH1",
+		"product_name" : "Disposable Garbage Bag",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 192,
+		"last_order_qty" : 6,
+		"remain_inventory" : 186,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P197",
+		"warehouse_id" : "WH4",
+		"product_name" : "Duster",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 37,
+		"last_order_qty" : 0,
+		"remain_inventory" : 37,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P158",
+		"warehouse_id" : "WH2",
+		"product_name" : "FreshAir Lavender Room Spray",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 83,
+		"last_order_qty" : 2,
+		"remain_inventory" : 81,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P117",
+		"warehouse_id" : "WH1",
+		"product_name" : "PowerWash Dish Gel – Lemon Zest",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 44,
+		"last_order_qty" : 0,
+		"remain_inventory" : 44,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P182",
+		"warehouse_id" : "WH1",
+		"product_name" : "FarmPure Organic Tomatoes",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 73,
+		"last_order_qty" : 28,
+		"remain_inventory" : 45,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P199",
+		"warehouse_id" : "WH1",
+		"product_name" : "GreenHarvest Palak Leaves",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 163,
+		"last_order_qty" : 2,
+		"remain_inventory" : 161,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P124",
+		"warehouse_id" : "WH5",
+		"product_name" : "FreshNest Alphonso Mango (Premium)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 139,
+		"last_order_qty" : 9,
+		"remain_inventory" : 130,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P144",
+		"warehouse_id" : "WH5",
+		"product_name" : "VeggieBasket Baby Corn – Peeled",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 78,
+		"last_order_qty" : 7,
+		"remain_inventory" : 71,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P168",
+		"warehouse_id" : "WH3",
+		"product_name" : "DesiRoots Red Onions (Loose)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 86,
+		"last_order_qty" : 4,
+		"remain_inventory" : 82,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P138",
+		"warehouse_id" : "WH4",
+		"product_name" : "GoldenGrain Basmati Rice – 5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 130,
+		"last_order_qty" : 12,
+		"remain_inventory" : 118,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P104",
+		"warehouse_id" : "WH5",
+		"product_name" : "Forune Rice Bran Oil- 5Ltr",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 33,
+		"last_order_qty" : 6,
+		"remain_inventory" : 27,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P189",
+		"warehouse_id" : "WH3",
+		"product_name" : "SpiceRoots Turmeric Powder – 100g",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 116,
+		"last_order_qty" : 0,
+		"remain_inventory" : 116,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P177",
+		"warehouse_id" : "WH3",
+		"product_name" : "NutriGram Moong Dal – Split, Washed",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 121,
+		"last_order_qty" : 0,
+		"remain_inventory" : 121,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P120",
+		"warehouse_id" : "WH3",
+		"product_name" : "Ashirbaad Atta -5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 119,
+		"last_order_qty" : 0,
+		"remain_inventory" : 119,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P162",
+		"warehouse_id" : "WH1",
+		"product_name" : "Redbull Energy drink",
+		"product_category" : "Beverages",
+		"stock_level" : 96,
+		"last_order_qty" : 0,
+		"remain_inventory" : 96,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P112",
+		"warehouse_id" : "WH4",
+		"product_name" : "CoolFizz Nimbu Soda – 500ml",
+		"product_category" : "Beverages",
+		"stock_level" : 100,
+		"last_order_qty" : 18,
+		"remain_inventory" : 82,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P132",
+		"warehouse_id" : "WH4",
+		"product_name" : "NatureSip Green Tea – Tulsi Lemon",
+		"product_category" : "Beverages",
+		"stock_level" : 131,
+		"last_order_qty" : 20,
+		"remain_inventory" : 111,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P163",
+		"warehouse_id" : "WH3",
+		"product_name" : "Mapro 100% Orange Juice",
+		"product_category" : "Beverages",
+		"stock_level" : 110,
+		"last_order_qty" : 1,
+		"remain_inventory" : 109,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P128",
+		"warehouse_id" : "WH2",
+		"product_name" : "Brue Instant Coffee",
+		"product_category" : "Beverages",
+		"stock_level" : 187,
+		"last_order_qty" : 0,
+		"remain_inventory" : 187,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P166",
+		"warehouse_id" : "WH4",
+		"product_name" : "CrunchBites Masala Makhana",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 100,
+		"last_order_qty" : 6,
+		"remain_inventory" : 94,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P115",
+		"warehouse_id" : "WH4",
+		"product_name" : "DesiDelight Roasted Chana Snack",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 50,
+		"last_order_qty" : 2,
+		"remain_inventory" : 48,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P180",
+		"warehouse_id" : "WH2",
+		"product_name" : "Hadiram Bhujia",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 58,
+		"last_order_qty" : 2,
+		"remain_inventory" : 56,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P113",
+		"warehouse_id" : "WH4",
+		"product_name" : "Britannia Rusk",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 118,
+		"last_order_qty" : 0,
+		"remain_inventory" : 118,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P149",
+		"warehouse_id" : "WH5",
+		"product_name" : "HerbalCure Neem Tulsi Bath Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 180,
+		"last_order_qty" : 4,
+		"remain_inventory" : 176,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P196",
+		"warehouse_id" : "WH4",
+		"product_name" : "ShineCoat Hair Serum – Keratin Boost",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 177,
+		"last_order_qty" : 12,
+		"remain_inventory" : 165,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P192",
+		"warehouse_id" : "WH1",
+		"product_name" : "Fogg perfume",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 98,
+		"last_order_qty" : 0,
+		"remain_inventory" : 98,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P102",
+		"warehouse_id" : "WH4",
+		"product_name" : "Lux Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 172,
+		"last_order_qty" : 0,
+		"remain_inventory" : 172,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P184",
+		"warehouse_id" : "WH4",
+		"product_name" : "Loreal Conditioner",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 146,
+		"last_order_qty" : 2,
+		"remain_inventory" : 144,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P193",
+		"warehouse_id" : "WH2",
+		"product_name" : "GlowEssence Aloe Vera Face Wash",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 115,
+		"last_order_qty" : 1,
+		"remain_inventory" : 114,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P131",
+		"warehouse_id" : "WH5",
+		"product_name" : "SparkleFresh Liquid Floor Cleaner",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 80,
+		"last_order_qty" : 3,
+		"remain_inventory" : 77,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P111",
+		"warehouse_id" : "WH2",
+		"product_name" : "Disposable Garbage Bag",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 159,
+		"last_order_qty" : 0,
+		"remain_inventory" : 159,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P165",
+		"warehouse_id" : "WH5",
+		"product_name" : "Duster",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 92,
+		"last_order_qty" : 9,
+		"remain_inventory" : 83,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P126",
+		"warehouse_id" : "WH1",
+		"product_name" : "FreshAir Lavender Room Spray",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 181,
+		"last_order_qty" : 8,
+		"remain_inventory" : 173,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P114",
+		"warehouse_id" : "WH2",
+		"product_name" : "PowerWash Dish Gel – Lemon Zest",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 91,
+		"last_order_qty" : 4,
+		"remain_inventory" : 87,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P134",
+		"warehouse_id" : "WH3",
+		"product_name" : "FarmPure Organic Tomatoes",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 56,
+		"last_order_qty" : 0,
+		"remain_inventory" : 56,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P198",
+		"warehouse_id" : "WH2",
+		"product_name" : "GreenHarvest Palak Leaves",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 38,
+		"last_order_qty" : 4,
+		"remain_inventory" : 34,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P153",
+		"warehouse_id" : "WH3",
+		"product_name" : "FreshNest Alphonso Mango (Premium)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 124,
+		"last_order_qty" : 6,
+		"remain_inventory" : 118,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P176",
+		"warehouse_id" : "WH5",
+		"product_name" : "VeggieBasket Baby Corn – Peeled",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 191,
+		"last_order_qty" : 4,
+		"remain_inventory" : 187,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P121",
+		"warehouse_id" : "WH5",
+		"product_name" : "DesiRoots Red Onions (Loose)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 39,
+		"last_order_qty" : 0,
+		"remain_inventory" : 39,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P116",
+		"warehouse_id" : "WH4",
+		"product_name" : "GoldenGrain Basmati Rice – 5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 54,
+		"last_order_qty" : 0,
+		"remain_inventory" : 54,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P123",
+		"warehouse_id" : "WH1",
+		"product_name" : "Forune Rice Bran Oil- 5Ltr",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 52,
+		"last_order_qty" : 4,
+		"remain_inventory" : 48,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P200",
+		"warehouse_id" : "WH1",
+		"product_name" : "SpiceRoots Turmeric Powder – 100g",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 44,
+		"last_order_qty" : 0,
+		"remain_inventory" : 44,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P157",
+		"warehouse_id" : "WH1",
+		"product_name" : "NutriGram Moong Dal – Split, Washed",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 199,
+		"last_order_qty" : 4,
+		"remain_inventory" : 195,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P136",
+		"warehouse_id" : "WH2",
+		"product_name" : "Ashirbaad Atta -5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 61,
+		"last_order_qty" : 0,
+		"remain_inventory" : 61,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P103",
+		"warehouse_id" : "WH4",
+		"product_name" : "Redbull Energy drink",
+		"product_category" : "Beverages",
+		"stock_level" : 200,
+		"last_order_qty" : 1,
+		"remain_inventory" : 199,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P161",
+		"warehouse_id" : "WH3",
+		"product_name" : "CoolFizz Nimbu Soda – 500ml",
+		"product_category" : "Beverages",
+		"stock_level" : 26,
+		"last_order_qty" : 14,
+		"remain_inventory" : 12,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P142",
+		"warehouse_id" : "WH1",
+		"product_name" : "NatureSip Green Tea – Tulsi Lemon",
+		"product_category" : "Beverages",
+		"stock_level" : 191,
+		"last_order_qty" : 3,
+		"remain_inventory" : 188,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P188",
+		"warehouse_id" : "WH1",
+		"product_name" : "Mapro 100% Orange Juice",
+		"product_category" : "Beverages",
+		"stock_level" : 152,
+		"last_order_qty" : 3,
+		"remain_inventory" : 149,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P108",
+		"warehouse_id" : "WH1",
+		"product_name" : "Brue Instant Coffee",
+		"product_category" : "Beverages",
+		"stock_level" : 45,
+		"last_order_qty" : 10,
+		"remain_inventory" : 35,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P133",
+		"warehouse_id" : "WH4",
+		"product_name" : "CrunchBites Masala Makhana",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 140,
+		"last_order_qty" : 9,
+		"remain_inventory" : 131,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P195",
+		"warehouse_id" : "WH3",
+		"product_name" : "DesiDelight Roasted Chana Snack",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 91,
+		"last_order_qty" : 3,
+		"remain_inventory" : 88,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P119",
+		"warehouse_id" : "WH1",
+		"product_name" : "Hadiram Bhujia",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 93,
+		"last_order_qty" : 0,
+		"remain_inventory" : 93,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P106",
+		"warehouse_id" : "WH3",
+		"product_name" : "Britannia Rusk",
+		"product_category" : "Snacks and Branded Foods",
+		"stock_level" : 101,
+		"last_order_qty" : 18,
+		"remain_inventory" : 83,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P169",
+		"warehouse_id" : "WH2",
+		"product_name" : "HerbalCure Neem Tulsi Bath Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 124,
+		"last_order_qty" : 7,
+		"remain_inventory" : 117,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P164",
+		"warehouse_id" : "WH5",
+		"product_name" : "ShineCoat Hair Serum – Keratin Boost",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 46,
+		"last_order_qty" : 0,
+		"remain_inventory" : 46,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P194",
+		"warehouse_id" : "WH2",
+		"product_name" : "Fogg perfume",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 86,
+		"last_order_qty" : 10,
+		"remain_inventory" : 76,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P145",
+		"warehouse_id" : "WH3",
+		"product_name" : "Lux Soap",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 140,
+		"last_order_qty" : 27,
+		"remain_inventory" : 113,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P159",
+		"warehouse_id" : "WH1",
+		"product_name" : "Loreal Conditioner",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 65,
+		"last_order_qty" : 6,
+		"remain_inventory" : 59,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P141",
+		"warehouse_id" : "WH2",
+		"product_name" : "GlowEssence Aloe Vera Face Wash",
+		"product_category" : "Beauty and Hygiene",
+		"stock_level" : 37,
+		"last_order_qty" : 1,
+		"remain_inventory" : 36,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P191",
+		"warehouse_id" : "WH4",
+		"product_name" : "SparkleFresh Liquid Floor Cleaner",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 80,
+		"last_order_qty" : 3,
+		"remain_inventory" : 77,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P190",
+		"warehouse_id" : "WH4",
+		"product_name" : "Disposable Garbage Bag",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 145,
+		"last_order_qty" : 2,
+		"remain_inventory" : 143,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P147",
+		"warehouse_id" : "WH4",
+		"product_name" : "Duster",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 76,
+		"last_order_qty" : 8,
+		"remain_inventory" : 68,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P109",
+		"warehouse_id" : "WH5",
+		"product_name" : "FreshAir Lavender Room Spray",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 167,
+		"last_order_qty" : 0,
+		"remain_inventory" : 167,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P100",
+		"warehouse_id" : "WH4",
+		"product_name" : "PowerWash Dish Gel – Lemon Zest",
+		"product_category" : "Cleaning and Household",
+		"stock_level" : 183,
+		"last_order_qty" : 4,
+		"remain_inventory" : 179,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P143",
+		"warehouse_id" : "WH1",
+		"product_name" : "FarmPure Organic Tomatoes",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 58,
+		"last_order_qty" : 3,
+		"remain_inventory" : 55,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P173",
+		"warehouse_id" : "WH1",
+		"product_name" : "GreenHarvest Palak Leaves",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 194,
+		"last_order_qty" : 36,
+		"remain_inventory" : 158,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P151",
+		"warehouse_id" : "WH4",
+		"product_name" : "FreshNest Alphonso Mango (Premium)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 197,
+		"last_order_qty" : 3,
+		"remain_inventory" : 194,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P129",
+		"warehouse_id" : "WH4",
+		"product_name" : "VeggieBasket Baby Corn – Peeled",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 143,
+		"last_order_qty" : 0,
+		"remain_inventory" : 143,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P178",
+		"warehouse_id" : "WH5",
+		"product_name" : "DesiRoots Red Onions (Loose)",
+		"product_category" : "Fruits and Vegetables",
+		"stock_level" : 190,
+		"last_order_qty" : 9,
+		"remain_inventory" : 181,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	},
+	{
+		"product_id" : "P186",
+		"warehouse_id" : "WH3",
+		"product_name" : "GoldenGrain Basmati Rice – 5kg",
+		"product_category" : "Foodgrains, Oil & Masala",
+		"stock_level" : 177,
+		"last_order_qty" : 27,
+		"remain_inventory" : 150,
+		"Last_updatetime" : "2025-07-06 23:50:00"
+	}
+]}

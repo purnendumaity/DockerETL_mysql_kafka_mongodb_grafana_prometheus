@@ -1,0 +1,48 @@
+CREATE TABLE `delivery` (
+  `sysrundate` date DEFAULT NULL,
+  `order_id` int DEFAULT NULL,
+  `lat` varchar(50) DEFAULT NULL,
+  `lon` varchar(50) DEFAULT NULL,
+  `courier_id` varchar(50) DEFAULT NULL,
+  `customer_id` varchar(50) DEFAULT NULL,
+  `gps_ts` timestamp NULL DEFAULT NULL,
+  `delivery_ts` timestamp NULL DEFAULT NULL,
+  `sameday_delivery_status` varchar(50) DEFAULT NULL);
+CREATE TABLE `orders` (
+  `sysrundate` date DEFAULT NULL,
+  `order_id` int DEFAULT NULL,
+  `product_id` varchar(50) DEFAULT NULL,
+  `inventory_source` varchar(50) DEFAULT NULL,
+  `quantity` int DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  `customer_id` varchar(50) DEFAULT NULL,
+  `order_ts` timestamp NULL DEFAULT NULL,
+  `sameday_order_status` varchar(50) DEFAULT NULL);
+CREATE TABLE `inventory` (
+  `product_id` varchar(50) DEFAULT NULL,
+  `warehouse_id` varchar(50) DEFAULT NULL,
+  `product_name` varchar(80) DEFAULT NULL,
+  `product_category` varchar(50) DEFAULT NULL,
+  `stock_level` int DEFAULT NULL,
+  `last_order_qty` int DEFAULT NULL,
+  `remain_inventory` int DEFAULT NULL,
+  `Last_updatetime` timestamp NULL DEFAULT NULL);
+CREATE TABLE `masterdata` (
+  `sysrundate` date DEFAULT NULL,
+  `order_id` int DEFAULT NULL,
+  `lat` varchar(50) DEFAULT NULL,
+  `lon` varchar(50) DEFAULT NULL,
+  `product_id` varchar(50) DEFAULT NULL,
+  `warehouse_id` varchar(50) DEFAULT NULL,
+  `quantity` int DEFAULT NULL,
+  `price` int DEFAULT NULL,
+  `customer_id` varchar(50) DEFAULT NULL,
+  `courier_id` varchar(50) DEFAULT NULL,
+  `order_ts` timestamp NULL DEFAULT NULL,
+  `gps_ts` timestamp NULL DEFAULT NULL,
+  `delivery_ts` timestamp NULL DEFAULT NULL,
+  `sameday_order_status` varchar(50) DEFAULT NULL,
+  `sameday_delivery_status` varchar(50) DEFAULT NULL,
+  `final_order_status` varchar(50) DEFAULT NULL,
+  `final_delivery_status` varchar(50) DEFAULT NULL,
+  `ordercycle_indicator` varchar(50) DEFAULT NULL);

@@ -1,0 +1,134 @@
+[2025-07-26T07:36:14.980+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-07-26T07:36:15.057+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-26T07:36:09.898134+00:00 [queued]>
+[2025-07-26T07:36:15.072+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-26T07:36:09.898134+00:00 [queued]>
+[2025-07-26T07:36:15.073+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2025-07-26T07:36:15.102+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_order_and_delivery_data> on 2025-07-26 07:36:09.898134+00:00
+[2025-07-26T07:36:15.119+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=100) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-07-26T07:36:15.120+0000] {standard_task_runner.py:63} INFO - Started process 101 to run task
+[2025-07-26T07:36:15.119+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample_ETL', 'load_order_and_delivery_data', 'manual__2025-07-26T07:36:09.898134+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/sample_ETL.py', '--cfg-path', '/tmp/tmpfyptrk6w']
+[2025-07-26T07:36:15.122+0000] {standard_task_runner.py:91} INFO - Job 62: Subtask load_order_and_delivery_data
+[2025-07-26T07:36:15.275+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:195 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-07-26T07:36:15.405+0000] {task_command.py:426} INFO - Running <TaskInstance: sample_ETL.load_order_and_delivery_data manual__2025-07-26T07:36:09.898134+00:00 [running]> on host 3ee771baa9ca
+[2025-07-26T07:36:15.936+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample_ETL' AIRFLOW_CTX_TASK_ID='load_order_and_delivery_data' AIRFLOW_CTX_EXECUTION_DATE='2025-07-26T07:36:09.898134+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-26T07:36:09.898134+00:00'
+[2025-07-26T07:36:15.938+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-07-26T07:36:15.955+0000] {logging_mixin.py:188} INFO - 🚀 Starting ETL Step 2: load_order_and_delivery_data
+[2025-07-26T07:36:15.988+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:16.174+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-07-26T07:36:16.175+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:16.348+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:16.350+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:16.350+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-producer-1, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-07-26T07:36:16.633+0000] {cluster.py:313} WARNING - Topic orders_topic is not available during auto-create initialization
+[2025-07-26T07:36:16.746+0000] {cluster.py:313} WARNING - Topic orders_topic is not available during auto-create initialization
+[2025-07-26T07:36:16.859+0000] {cluster.py:313} WARNING - Topic orders_topic is not available during auto-create initialization
+[2025-07-26T07:36:16.967+0000] {cluster.py:313} WARNING - Topic orders_topic is not available during auto-create initialization
+[2025-07-26T07:36:17.075+0000] {cluster.py:313} WARNING - Topic orders_topic is not available during auto-create initialization
+[2025-07-26T07:36:17.320+0000] {logging_mixin.py:188} INFO - ✅ Produced 124 records to topic 'orders_topic'
+[2025-07-26T07:36:17.321+0000] {logging_mixin.py:188} INFO - ✅ orders producer completed
+[2025-07-26T07:36:20.321+0000] {logging_mixin.py:188} INFO - 📥 Starting to consume from topic 'orders_topic' into table 'orders'
+[2025-07-26T07:36:20.324+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:20.330+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-07-26T07:36:20.331+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:20.334+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('orders_topic',)
+[2025-07-26T07:36:20.385+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:20.386+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:20.387+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-07-26T07:36:22.884+0000] {cluster.py:401} INFO - Coordinator for group/etl_group_orders is ('coordinator-1', 'kafka', 9092, None)
+[2025-07-26T07:36:22.885+0000] {base.py:788} INFO - Discovered coordinator coordinator-1 for group etl_group_orders
+[2025-07-26T07:36:22.886+0000] {base.py:848} INFO - Starting new heartbeat thread
+[2025-07-26T07:36:22.888+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group etl_group_orders
+[2025-07-26T07:36:22.888+0000] {base.py:419} INFO - Failed to join group etl_group_orders: NodeNotReadyError: coordinator-1
+[2025-07-26T07:36:22.890+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:22.891+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:22.993+0000] {base.py:532} INFO - (Re-)joining group etl_group_orders
+[2025-07-26T07:36:23.022+0000] {base.py:637} INFO - Received member id kafka-python-2.2.15-93980c8c-9006-49e7-9cb4-8f8b5f5c15bc for group etl_group_orders; will retry join-group
+[2025-07-26T07:36:23.023+0000] {base.py:419} INFO - Failed to join group etl_group_orders: [Error 79] MemberIdRequiredError
+[2025-07-26T07:36:23.024+0000] {base.py:532} INFO - (Re-)joining group etl_group_orders
+[2025-07-26T07:36:26.065+0000] {base.py:594} INFO - Successfully joined group etl_group_orders <Generation 1 (member_id: kafka-python-2.2.15-93980c8c-9006-49e7-9cb4-8f8b5f5c15bc, protocol: range)>
+[2025-07-26T07:36:26.067+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-07-26T07:36:26.106+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('orders_topic', 0)]
+[2025-07-26T07:36:26.107+0000] {consumer.py:249} INFO - Setting newly assigned partitions (('orders_topic', 0),) for group etl_group_orders
+[2025-07-26T07:36:26.147+0000] {fetcher.py:418} INFO - Resetting offset for partition ('orders_topic', 0) to offset 0.
+[2025-07-26T07:36:26.295+0000] {logging_mixin.py:188} INFO - 📝 Inserted 100 into orders...
+[2025-07-26T07:36:36.335+0000] {logging_mixin.py:188} INFO - ✅ Inserted 124 total records into orders
+[2025-07-26T07:36:36.340+0000] {base.py:1052} INFO - Stopping heartbeat thread
+[2025-07-26T07:36:36.344+0000] {logging_mixin.py:188} INFO - ✅ orders consumer completed
+[2025-07-26T07:36:36.446+0000] {cluster.py:313} WARNING - Topic delivery_topic is not available during auto-create initialization
+[2025-07-26T07:36:36.569+0000] {cluster.py:313} WARNING - Topic delivery_topic is not available during auto-create initialization
+[2025-07-26T07:36:36.690+0000] {logging_mixin.py:188} INFO - ✅ Produced 124 records to topic 'delivery_topic'
+[2025-07-26T07:36:36.691+0000] {logging_mixin.py:188} INFO - ✅ delivery producer completed
+[2025-07-26T07:36:39.687+0000] {logging_mixin.py:188} INFO - 📥 Starting to consume from topic 'delivery_topic' into table 'delivery'
+[2025-07-26T07:36:39.690+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:39.698+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-07-26T07:36:39.699+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:39.701+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('delivery_topic',)
+[2025-07-26T07:36:39.748+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:39.749+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:39.750+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-07-26T07:36:39.853+0000] {cluster.py:401} INFO - Coordinator for group/etl_group_delivery is ('coordinator-1', 'kafka', 9092, None)
+[2025-07-26T07:36:39.854+0000] {base.py:788} INFO - Discovered coordinator coordinator-1 for group etl_group_delivery
+[2025-07-26T07:36:39.855+0000] {base.py:848} INFO - Starting new heartbeat thread
+[2025-07-26T07:36:39.856+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group etl_group_delivery
+[2025-07-26T07:36:39.857+0000] {base.py:419} INFO - Failed to join group etl_group_delivery: NodeNotReadyError: coordinator-1
+[2025-07-26T07:36:39.859+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-07-26T07:36:39.860+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1 host=kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-07-26T07:36:39.961+0000] {base.py:532} INFO - (Re-)joining group etl_group_delivery
+[2025-07-26T07:36:39.965+0000] {base.py:637} INFO - Received member id kafka-python-2.2.15-775ef46f-52fb-4d34-961e-eca31924fd26 for group etl_group_delivery; will retry join-group
+[2025-07-26T07:36:39.967+0000] {base.py:419} INFO - Failed to join group etl_group_delivery: [Error 79] MemberIdRequiredError
+[2025-07-26T07:36:39.968+0000] {base.py:532} INFO - (Re-)joining group etl_group_delivery
+[2025-07-26T07:36:42.973+0000] {base.py:594} INFO - Successfully joined group etl_group_delivery <Generation 1 (member_id: kafka-python-2.2.15-775ef46f-52fb-4d34-961e-eca31924fd26, protocol: range)>
+[2025-07-26T07:36:42.974+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-07-26T07:36:42.983+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('delivery_topic', 0)]
+[2025-07-26T07:36:42.984+0000] {consumer.py:249} INFO - Setting newly assigned partitions (('delivery_topic', 0),) for group etl_group_delivery
+[2025-07-26T07:36:42.990+0000] {fetcher.py:418} INFO - Resetting offset for partition ('delivery_topic', 0) to offset 0.
+[2025-07-26T07:36:43.017+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1002', '19.102999', '72.861701', 'C1002', 'U221', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.028+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1442', '19.194363', '72.921932', 'C1442', 'U758', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.034+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1508', '19.145949', '72.775454', 'C1508', 'U915', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.036+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1551', '19.269117', '72.88181', 'C1551', 'U232', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.038+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1571', '19.156715', '72.849162', 'C1571', 'U611', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.042+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1778', '18.937879', '72.842761', 'C1778', 'U627', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.045+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1945', '19.287062', '72.959239', 'C1945', 'U376', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.047+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1979', '19.047291', '72.799832', 'C1979', 'U689', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.048+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '1982', '19.167471', '72.825721', 'C1982', 'U626', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.050+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2162', '13.023401', '80.237191', 'C2162', 'U341', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.052+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2191', '13.178813', '80.233269', 'C2191', 'U216', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.056+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2424', '13.126256', '80.167609', 'C2424', 'U449', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.063+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2584', '13.129793', '80.268127', 'C2584', 'U784', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.065+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2599', '13.016731', '80.27729', 'C2599', 'U804', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.068+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '2714', '13.028884', '80.197455', 'C2714', 'U349', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.072+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '3473', '22.566224', '88.326403', 'C3473', 'U972', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.076+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '3737', '22.544271', '88.444432', 'C3737', 'U276', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.078+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '3786', '22.669077', '88.325533', 'C3786', 'U772', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.080+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '3858', '22.652995', '88.422832', 'C3858', 'U818', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.081+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '3915', '22.531872', '88.409729', 'C3915', 'U766', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.083+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4086', '28.591635', '76.854874', 'C4086', 'U795', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.084+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4098', '28.859729', '77.296355', 'C4098', 'U409', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.086+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4170', '28.617695', '77.028235', 'C4170', 'U248', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.088+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4184', '28.583788', '77.139283', 'C4184', 'U429', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.089+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4261', '28.471188', '77.050944', 'C4261', 'U534', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.124+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4315', '28.401902', '77.214042', 'C4315', 'U608', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.126+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4468', '28.541753', '77.206171', 'C4468', 'U629', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.127+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4531', '28.462328', '77.186317', 'C4531', 'U794', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.132+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4756', '28.505828', '76.951086', 'C4756', 'U281', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.135+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4815', '28.837211', '77.269501', 'C4815', 'U155', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.138+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4843', '28.486382', '76.898579', 'C4843', 'U918', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.143+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '4994', '28.463667', '76.966483', 'C4994', 'U814', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.145+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5056', '22.674438', '75.848786', 'C5056', 'U633', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.147+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5175', '22.733289', '75.85007', 'C5175', 'U254', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.154+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5581', '22.673078', '75.838257', 'C5581', 'U963', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.155+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5616', '22.70901', '75.863567', 'C5616', 'U702', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.157+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5717', '22.617029', '75.755292', 'C5717', 'U437', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.158+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5772', '22.752335', '75.816983', 'C5772', 'U424', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.162+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5866', '22.72971', '75.888958', 'C5866', 'U598', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.164+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5880', '22.706892', '75.752899', 'C5880', 'U222', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:43.167+0000] {logging_mixin.py:188} INFO - ❌ Insert error for record ['2025-07-06', '5905', '22.659407', '75.750451', 'C5905', 'U461', 'Not Started']: 1136 (21S01): Column count doesn't match value count at row 1
+[2025-07-26T07:36:53.220+0000] {logging_mixin.py:188} INFO - ✅ Inserted 83 total records into delivery
+[2025-07-26T07:36:53.223+0000] {base.py:1052} INFO - Stopping heartbeat thread
+[2025-07-26T07:36:53.225+0000] {logging_mixin.py:188} INFO - ✅ delivery consumer completed
+[2025-07-26T07:36:53.226+0000] {logging_mixin.py:188} INFO - 🎉 ETL Step 2 completed successfully.
+[2025-07-26T07:36:53.227+0000] {python.py:237} INFO - Done. Returned value was: None
+[2025-07-26T07:36:53.228+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-07-26T07:36:53.285+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=sample_ETL, task_id=load_order_and_delivery_data, run_id=manual__2025-07-26T07:36:09.898134+00:00, execution_date=20250726T073609, start_date=20250726T073615, end_date=20250726T073653
+[2025-07-26T07:36:53.349+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-07-26T07:36:53.422+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-07-26T07:36:53.438+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
