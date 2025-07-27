@@ -1,7 +1,6 @@
 ========================= Environment ==================================
 
-Windows machine with 8GB RAM,Windos 
-Docker Desktop Application installed
+Windows machine with 8GB RAM,Windows Docker Desktop Application installed.
 It's lightweight approach to demonstrate the Fullstack docker
 It has mysql + mongodb + kafka + zookeeper + airflow + airflow-scheduler
 also it has grafana + prometheus + mysql-exporter + mongodb-exporter
@@ -110,6 +109,7 @@ SELECT user, host FROM mysql.user WHERE user = 'airflow';
 SHOW GRANTS FOR 'airflow'@'%';
 CREATE DATABASE IF NOT EXISTS airflow_db;
 CREATE DATABASE IF NOT EXISTS test;
+CREATE DATABASE IF NOT EXISTS ETL;
 CREATE USER IF NOT EXISTS 'airflow'@'%' IDENTIFIED BY 'airflow';
 GRANT ALL PRIVILEGES ON airflow_db.* TO 'airflow'@'%';
 FLUSH PRIVILEGES;
